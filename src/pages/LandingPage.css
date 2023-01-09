@@ -1,0 +1,25 @@
+#LandingPage {
+  background-image: url('../img/guitar-landing.jpeg');
+  min-height: calc(100vh - 4.5rem);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#LandingPage .SeekYourGuitar {
+  /* position the element */
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+
+  /* position the children elements */
+  display: flex;
+  align-items: center;
+  gap: var(--spacing);
+  
+  /* style box */
+  background-color: var(--c1-d);
+  padding: var(--spacing);
+  border-radius: var(--spacing);
+  color: var(--c-light);
+}

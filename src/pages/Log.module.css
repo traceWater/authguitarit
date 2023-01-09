@@ -1,0 +1,124 @@
+.log {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #312727;
+}
+
+.log h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #fefefe;
+}
+
+.log-form {
+  padding: 2rem;
+  max-width: 90vw;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px rgba(136, 73, 10, 0.5);
+  background: rgba(124, 61, 9, 0.2);
+}
+
+.log-form .form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  color: #fefefe;
+}
+
+.log-form .form-group input {
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+  background-color: rgba(149, 86, 13, 0.3);
+  height: 2.2rem;
+  min-width: 250px;
+  width: 300px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px rgba(188, 106, 29, 0.1);
+  transition: 250ms ease-out;
+  color: #fefefe;
+}
+
+.log-form .form-group input:focus {
+  background-color: rgba(217, 139, 29, 0.3);
+  box-shadow: 5px 5px 5px rgba(220, 112, 11, 0.1);
+}
+
+.log-form .form-group span {
+  text-align: center;
+  font-size: 0.875rem;
+  width: 100%;
+  font-weight: 600;
+  color: rgb(170, 85, 19);
+}
+
+.log-form button[type="submit"] {
+  margin: 0 auto;
+  text-align: center;
+  background: #642a0d;
+  color: #eb620d;
+  border: none;
+  outline: none;
+  padding: 0.85rem 2rem;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px rgba(5, 25, 55, 0.3);
+  cursor: pointer;
+  transition: 250ms ease-out;
+}
+
+.log-form button[type="submit"]:hover {
+  background: rgb(116, 29, 0);
+}
+
+.log-form a {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: rgb(34, 35, 32);
+  transition: 250ms ease-out;
+  text-align: center;
+}
+
+.log-form a:hover {
+  color: rgb(184, 83, 15);
+}
+
+@media (max-width: 768px) {
+  .log-form {
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
+
+  .log-form .form-group {
+    gap: 1rem;
+  }
+
+  .log-form .form-group label {
+    font-size: 0.875rem;
+  }
+
+  .log-form .form-group input {
+    width: 100%;
+    min-width: fit-content;
+    height: 2rem;
+  }
+
+  .log-form button[type="submit"] {
+    padding: 0.85rem 3rem;
+  }
+
+  .log-form a {
+    font-size: 0.875rem;
+  }
+}

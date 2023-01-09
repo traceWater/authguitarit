@@ -1,0 +1,36 @@
+.header {
+  min-height: 10vh;
+  display: flex;
+  padding: 0 10vw;
+  justify-content: space-between;
+  width: 100vw;
+  background-image: linear-gradient(to right top, #c36b0d, #ad6609);
+}
+
+.header nav {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.header nav > a {
+  font-family: "Great Vibes", cursive;
+  /* text-decoration: none; */
+  color: #fefefe;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.header nav ul li a {
+  font-family: "Great Vibes", cursive;
+  /* text-decoration: none; */
+  color: #fefefe;
+}

@@ -1,0 +1,9 @@
+.aboutUs {
+    font-family: "Great Vibes", cursive;
+    min-height: 70vh;
+    color: #be5f1f;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 60vw;
+  }

@@ -1,0 +1,79 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: rgba(175, 115, 32, 0.8);
+  color: #fefefe;
+}
+
+.profile h2 {
+  font-size: 1.75rem;
+  margin-bottom: 3rem;
+}
+
+.change-password__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.change-password__form .form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.change-password__form .form-group input {
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+  background-color: rgba(212, 158, 30, 0.3);
+  height: 2.2rem;
+  min-width: 250px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px rgba(5, 25, 55, 0.1);
+  transition: 250ms ease-out;
+  color: #fefefe;
+}
+
+.change-password__form .form-group input:focus {
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+  background-color: rgba(184, 115, 24, 0.3);
+  height: 2.2rem;
+  min-width: 250px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px rgba(208, 150, 13, 0.1);
+}
+
+.change-password__form .form-group span {
+  text-align: center;
+  font-size: 0.875rem;
+  width: 100%;
+  font-weight: 600;
+  color: rgb(60, 20, 20);
+}
+
+.change-password__form button {
+  margin: 0 auto;
+  text-align: center;
+  background: #e2ab13;
+  color: #fefefe;
+  border: none;
+  outline: none;
+  padding: 0.85rem 2rem;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px rgba(182, 102, 16, 0.3);
+  cursor: pointer;
+  transition: 250ms ease-out;
+}
+
+.change-password__form button:hover {
+  background: rgb(116, 68, 0);
+}

@@ -1,0 +1,23 @@
+.loading-spinner {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.loading-spinner svg {
+  animation-name: spinner;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  font-size: 2rem;
+  margin: 0 auto;
+  fill: rgb(211, 97, 16);
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
